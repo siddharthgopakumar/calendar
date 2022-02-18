@@ -1,0 +1,54 @@
+h1 {
+    color: #27aedb;
+    text-align: center;
+}
+
+body{
+  height: 95vh; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
+}
+
+button{
+    color: #27aedb;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+td, th {
+    width: 50px;
+    height: 40px;
+    background-color: floralwhite;
+    text-align: center;
+}
+#main {
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.header {
+    display: flex;
+    flex-direction: column;
+}
+.footer{
+    display: flex;
+}
+.header--sub{
+    display: flex;
+    justify-content: space-between;
+}
+.year--{
+    display: flex;
+    background-color: white;
+    width: 105px;
+    justify-content: flex-end;
+}
+#today {
+    background-color: aquamarine;
+}
