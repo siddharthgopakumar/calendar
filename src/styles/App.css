@@ -1,54 +1,79 @@
 h1 {
-    color: #27aedb;
-    text-align: center;
+  color: #27aedb;
+  text-align: center;
 }
 
-body{
-  height: 95vh; 
+body {
+  height: 95vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.9;
+  opacity: 0.8;
+  font-size: larger;
+  color: #fffff0;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
 }
 
-button{
-    color: #27aedb;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+button {
+  color: #27aedb;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
-td, th {
-    width: 50px;
-    height: 40px;
-    background-color: floralwhite;
-    text-align: center;
+td,
+th {
+  width: 50px;
+  height: 40px;
+  background-color: #ff6347;
+  text-align: center;
 }
 #main {
-    display: flex;
-    flex-direction: column;
-    width: 75vw;
-    position: fixed;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  width: 75vw;
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .header {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
-.footer{
-    display: flex;
+.footer {
+  display: flex;
+  width: 75vw;
 }
-.header--sub{
-    display: flex;
-    justify-content: space-between;
+#previous-year,
+#previous-month,
+#next-month,
+#next-year {
+  flex: 1;
+  height: 27px;
 }
-.year--{
-    display: flex;
-    background-color: white;
-    width: 105px;
-    justify-content: flex-end;
+
+.header--sub {
+  display: flex;
+  justify-content: space-between;
+}
+.year-- {
+  display: flex;
+  background-color: white;
+  width: 105px;
+  justify-content: flex-end;
+  font-size: larger;
+  color: #ff6347;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+select{
+    font-size: larger;
+    color: #ff6347;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    border:none;
 }
 #today {
-    background-color: aquamarine;
+  background-color: #ff4500;
 }
